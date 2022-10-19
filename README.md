@@ -1,6 +1,6 @@
 # Project Title
 
-Module 5 Challenge
+Module 5 Challenge - Work Scheduler
 
 ## Description
 
@@ -8,7 +8,7 @@ In this coding challenge, students must create a daily planner that can allow us
 
 ## Screenshot
 
-<img src="/Users/skipperthurman/bootcamp/module-5-challenge/module-5-challenge/images/screenshot.png">
+<img src="/Users/skipperthurman/bootcamp/work-scheduler/images/screenshot.png">
 
 ## Links
 
