@@ -1,4 +1,4 @@
-# Project Title
+# Work Scheduler
 
 Module 5 Challenge - Work Scheduler
 
