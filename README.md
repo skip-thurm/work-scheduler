@@ -8,7 +8,7 @@ In this coding challenge, students must create a daily planner that can allow us
 
 ## Screenshot
 
-<img src="./images/screenshot.png">
+<img src="images/screenshot.png">
 
 ## Links
 
