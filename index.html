@@ -18,20 +18,130 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Users/skipperthurman/bootcamp/module-5-challenge/module-5-challenge/CSS/style.css" />
     <title>Work Day Scheduler</title>
+    <script type = "text/JavaScript" src = " https://MomentJS.com/downloads/moment.js"></script>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 class="display-3" id="display-three">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+      
+      <div style = "font-size:25px" id = "todaysdate"></div>
+      
+<!--Displays current date-->
 
+      <script type = "text/JavaScript">
+         var theDate = moment().format('MMMM Do YYYY');
+         document.getElementById("todaysdate").innerHTML = theDate;
+      </script>
+
+    </header>
+
+<!--Containers for rows-->
+
+    <div class ="container" id="container9">
+      <div class="row" id="row9">
+        <div class="timeBlock" id="timeBlock9">
+      </div>
+        <div class="description" id="description9"> Description
+        </div>
+        <div class="saveBtn" id="saveBtn9">🔒
+        </div>
+      </div>
+      </div>
+      
+      <div class ="container" id="container10">
+        <div class="row" id="row9">
+          <div class="timeBlock" id="timeBlock10">
+        </div>
+          <div class="description" id="description10"> Description
+          </div>
+          <div class="saveBtn" id="saveBtn10">🔒
+          </div>
+        </div>
+        </div>
+
+        <div class ="container" id="container11">
+          <div class="row" id="row9">
+            <div class="timeBlock" id="timeBlock11">
+          </div>
+            <div class="description" id="description11"> Description
+            </div>
+            <div class="saveBtn" id="saveBtn11">🔒
+            </div>
+          </div>
+          </div>
+
+          <div class ="container" id="container12">
+            <div class="row" id="row9">
+              <div class="timeBlock" id="timeBlock12">
+            </div>
+              <div class="description" id="description12"> Description
+              </div>
+              <div class="saveBtn" id="saveBtn12">🔒
+              </div>
+            </div>
+            </div>
+
+            <div class ="container" id="container13">
+              <div class="row" id="row9">
+                <div class="timeBlock" id="timeBlock13">
+              </div>
+                <div class="description" id="description13"> Description
+                </div>
+                <div class="saveBtn" id="saveBtn13">🔒
+                </div>
+              </div>
+              </div>
+
+              <div class ="container" id="container14">
+                <div class="row" id="row9">
+                  <div class="timeBlock" id="timeBlock14">
+                </div>
+                  <div class="description" id="description14"> Description
+                  </div>
+                  <div class="saveBtn" id="saveBtn14">🔒
+                  </div>
+                </div>
+                </div>
+
+                <div class ="container" id="container15">
+                  <div class="row" id="row9">
+                    <div class="timeBlock" id="timeBlock15">
+                  </div>
+                    <div class="description" id="description15"> Description
+                    </div>
+                    <div class="saveBtn" id="saveBtn15">🔒
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class ="container" id="container16">
+                    <div class="row" id="row9">
+                      <div class="timeBlock" id="timeBlock16">
+                    </div>
+                      <div class="description" id="description16"> Description
+                      </div>
+                      <div class="saveBtn" id="saveBtn16">🔒
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class ="container" id="container17">
+                      <div class="row" id="row9">
+                        <div class="timeBlock" id="timeBlock17">
+                      </div>
+                        <div class="description" id="description17"> Description
+                        </div>
+                        <div class="saveBtn" id="saveBtn17">🔒
+                        </div>
+                      </div>
+                      </div>
+
+    <script src="/Users/skipperthurman/bootcamp/module-5-challenge/module-5-challenge/JavaScript/javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
